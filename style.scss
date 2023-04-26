@@ -1,0 +1,156 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #819aa1;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg {
+    height: 100vh;
+    
+
+    .img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.weaArea {
+    margin-right: 32px;
+    z-index: 1;
+    position: relative;
+    .wea {
+        background-color: #fff;
+        width: 270px;
+        height: 80px;
+        border-radius: 5px;
+        padding: 0 8px;
+        display: flex;
+        margin-top: 12px;
+
+        .infom {
+            width: 50%;
+            margin: 10px 0 0 5px;
+
+            h3 {
+                margin: 0;
+                display: inline-block;
+            }
+            
+            .state {
+                font-size: 8px;
+                display: inline-block;
+            }
+
+            .tem {
+                margin: 0;
+            }
+        }
+
+        i {
+            font-size: 50px;
+            margin: auto auto;
+        }
+    }
+
+    .weaT {
+        position: absolute;
+        right: -200px;
+        top: -260px;
+    }
+
+    .weaH {
+        position: absolute;
+        right: -110px;
+        top: -160px;
+    }
+
+    .weaC {
+        position: absolute;
+        right: -20px;
+        top: -60px;
+    }
+
+    .weaN {
+        position: absolute;
+        right: -100px;
+        top: 40px;
+    }
+
+    .weaP {
+        position: absolute;
+        right: -180px;
+        top: 140px;
+    }
+
+}
+
+.weaArea2 {
+    margin-left: 69px;
+    z-index: 1;
+    position: relative;
+    .wea {
+        background-color: #fff;
+        width: 270px;
+        height: 80px;
+        border-radius: 5px;
+        padding:0 8px;
+        display: flex;
+        margin-top: 12px;
+
+        .infom {
+            width: 50%;
+            margin: 10px 0 0 5px;
+
+            h3 {
+                margin: 0;
+                display: inline-block;
+            }
+            
+            .state {
+                font-size: 8px;
+                display: inline-block;
+            }
+
+            .tem {
+                margin: 0;
+            }
+        }
+
+        i {
+            font-size: 50px;
+            margin: auto auto;
+        }
+    }
+
+    .weaTp {
+        position: absolute;
+        right: -220px;
+        top: -240px;
+    }
+
+    .weaY {
+        position: absolute;
+        right: -210px;
+        top: -133px;
+    }
+
+    .weaHu {
+        position: absolute;
+        right: -200px;
+        top: -27px;
+    }
+
+    .weaD {
+        position: absolute;
+        right: -180px;
+        top: 80px;
+    }
+}

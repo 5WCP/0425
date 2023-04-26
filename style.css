@@ -1,0 +1,134 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #819aa1;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg {
+  height: 100vh;
+}
+.svg .img {
+  height: 100%;
+  width: 100%;
+}
+
+.weaArea {
+  margin-right: 32px;
+  z-index: 1;
+  position: relative;
+}
+.weaArea .wea {
+  background-color: #fff;
+  width: 270px;
+  height: 80px;
+  border-radius: 5px;
+  padding: 0 8px;
+  display: flex;
+  margin-top: 12px;
+}
+.weaArea .wea .infom {
+  width: 50%;
+  margin: 10px 0 0 5px;
+}
+.weaArea .wea .infom h3 {
+  margin: 0;
+  display: inline-block;
+}
+.weaArea .wea .infom .state {
+  font-size: 8px;
+  display: inline-block;
+}
+.weaArea .wea .infom .tem {
+  margin: 0;
+}
+.weaArea .wea i {
+  font-size: 50px;
+  margin: auto auto;
+}
+.weaArea .weaT {
+  position: absolute;
+  right: -200px;
+  top: -260px;
+}
+.weaArea .weaH {
+  position: absolute;
+  right: -110px;
+  top: -160px;
+}
+.weaArea .weaC {
+  position: absolute;
+  right: -20px;
+  top: -60px;
+}
+.weaArea .weaN {
+  position: absolute;
+  right: -100px;
+  top: 40px;
+}
+.weaArea .weaP {
+  position: absolute;
+  right: -180px;
+  top: 140px;
+}
+
+.weaArea2 {
+  margin-left: 69px;
+  z-index: 1;
+  position: relative;
+}
+.weaArea2 .wea {
+  background-color: #fff;
+  width: 270px;
+  height: 80px;
+  border-radius: 5px;
+  padding: 0 8px;
+  display: flex;
+  margin-top: 12px;
+}
+.weaArea2 .wea .infom {
+  width: 50%;
+  margin: 10px 0 0 5px;
+}
+.weaArea2 .wea .infom h3 {
+  margin: 0;
+  display: inline-block;
+}
+.weaArea2 .wea .infom .state {
+  font-size: 8px;
+  display: inline-block;
+}
+.weaArea2 .wea .infom .tem {
+  margin: 0;
+}
+.weaArea2 .wea i {
+  font-size: 50px;
+  margin: auto auto;
+}
+.weaArea2 .weaTp {
+  position: absolute;
+  right: -220px;
+  top: -240px;
+}
+.weaArea2 .weaY {
+  position: absolute;
+  right: -210px;
+  top: -133px;
+}
+.weaArea2 .weaHu {
+  position: absolute;
+  right: -200px;
+  top: -27px;
+}
+.weaArea2 .weaD {
+  position: absolute;
+  right: -180px;
+  top: 80px;
+}/*# sourceMappingURL=style.css.map */

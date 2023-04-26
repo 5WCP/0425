@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天氣預報</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="weaArea">
+        <div class="wea weaT">
+            <div class="infom">
+                <h3>桃園</h3>
+                <p id="stateT" class="state">天氣狀況</p>
+                <p id="temT" class="tem">溫度</p>
+            </div>
+                <i id="iT" class="fa-solid fa-sun"></i>
+        </div>
+        <div class="wea weaH">
+            <div class="infom">
+                <h3>新竹</h3>
+                <p id="stateH" class="state">天氣狀況</p>
+                <p id="temH" class="tem">溫度</p>
+            </div>
+                <i id="iH" class="fa-solid fa-sun"></i>
+        </div>
+        <div class="wea weaC">
+            <div class="infom">
+                <h3>台中</h3>
+                <p id="stateC" class="state">天氣狀況</p>
+                <p id="temC" class="tem">溫度</p>
+            </div>
+                <i id="iC" class="fa-solid fa-sun"></i>
+        </div>
+        <div class="wea weaN">
+            <div class="infom">
+                <h3>台南</h3>
+                <p id="stateN" class="state">天氣狀況</p>
+                <p id="temN" class="tem">溫度</p>
+            </div>
+                <i id="iN" class="fa-solid fa-sun"></i>
+        </div>
+        <div class="wea weaP">
+            <div class="infom">
+                <h3>屏東</h3>
+                <p id="stateP" class="state">天氣狀況</p>
+                <p id="temP" class="tem">溫度</p>
+            </div>
+                <i id="iP" class="fa-solid fa-sun"></i>
+        </div>
+    </div>
+    <svg class="svg">
+        <image xlink:href="./Taiwan.svg" class="img"></image>   
+    </svg>
+    <div class="weaArea2">
+        <div class="wea weaTp">
+            <div class="infom">
+                <h3>台北</h3>
+                <p id="stateTp" class="state">天氣狀況</p>
+                <p id="temTp" class="tem">溫度</p>
+            </div>
+                <i id="iTp" class="fa-solid fa-sun"></i>
+        </div>
+        <div class="wea weaY">
+            <div class="infom">
+                <h3>宜蘭</h3>
+                <p id="stateY" class="state">天氣狀況</p>
+                <p id="temY" class="tem">溫度</p>
+            </div>
+                <i id="iY" class="fa-solid fa-sun"></i>
+        </div>
+        <div class="wea weaHu">
+            <div class="infom">
+                <h3>花蓮</h3>
+                <p id="stateHu" class="state">天氣狀況</p>
+                <p id="temHu" class="tem">溫度</p>
+            </div>
+                <i id="iHu" class="fa-solid fa-sun"></i>
+        </div>
+        <div class="wea weaD">
+            <div class="infom">
+                <h3>台東</h3>
+                <p id="stateD" class="state">天氣狀況</p>
+                <p id="temD" class="tem">溫度</p>
+            </div>
+                <i id="iD" class="fa-solid fa-sun"></i>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
